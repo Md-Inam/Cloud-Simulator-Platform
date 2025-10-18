@@ -9,24 +9,24 @@ CORE SERVICES TO SIMULATE:
 │   ├─ Versioning        
 │   └─ Cost calculation     
 │  
-├─ 💻 EC2 (Virtual Machines) 
-│   ├─ Launch instances (simulated) 
-│   ├─ Instance types (t2.micro, etc.) 
-│   ├─ Start/stop/terminate 
-│   ├─ Security groups 
-│   └─ Cost per hour tracking 
+ ├─ 💻 EC2 (Virtual Machines)  
+│   ├─ Launch instances (simulated)    
+│   ├─ Instance types (t2.micro, etc.)       
+│   ├─ Start/stop/terminate        
+│   ├─ Security groups          
+│   └─ Cost per hour tracking                   
 │ 
-├─ 🗄️ RDS (Databases) 
-│   ├─ PostgreSQL/MySQL instances 
-│   ├─ Backups & snapshots 
-│   ├─ Read replicas 
-│   └─ Storage & compute costs 
+ ├─ 🗄️ RDS (Databases) 
+│   ├─ PostgreSQL/MySQL instances    
+│   ├─ Backups & snapshots         
+│   ├─ Read replicas                    
+│   └─ Storage & compute costs                   
 │ 
-└─ ⚡ Lambda (Serverless) 
-    ├─ Function creation 
-    ├─ Triggers & events 
-    ├─ Execution time simulation 
-    └─ Per-invocation pricing 
+ └─ ⚡ Lambda (Serverless)             
+    ├─ Function creation           
+    ├─ Triggers & events                            
+    ├─ Execution time simulation          
+    └─ Per-invocation pricing                
  
 Tier 2 (Advanced): 
 ├─ 🌐 CloudFront (CDN) 
