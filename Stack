@@ -1,0 +1,33 @@
+TECH STACK:
+ 
+Frontend:           
+├─ React.js (AWS Console-like UI)              
+├─ TailwindCSS (modern design)                    
+├─ Chart.js (cost graphs)              
+└─ Monaco Editor (code editing for Lambda)               
+                  
+Backend:                      
+├─ FastAPI or Node.js (REST API)              
+├─ PostgreSQL (resource metadata)              
+├─ Redis (session, caching)               
+├─ Docker (for Lambda simulation)            
+└─ WebSocket (real-time updates)            
+             
+Special Components:               
+├─ Cost Calculator Engine                  
+│   └─ Parse A WS pricing JSON, calculate dynamically                  
+│           
+├─ Resource State Machine                                
+│   └─ Manage lifecycle (create → running → stopped → deleted)                        
+│                  
+├─ Sandbox Executor (for Lambda)                
+│   └─ Safely run user code with limits                    
+│                
+└─ Challenge System                         
+    └─ Scenario-based learning paths                
+          
+Infrastructure:                     
+├─ Can run on single VPS ($5/month DigitalOcean)                
+├─ Database for all users < 1GB               
+├─ Scales to 1000s of concurrent users             
+└─ Open-source, self-hostable        
