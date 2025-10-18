@@ -1,13 +1,13 @@
 # Cloud-Simulator-Platform
 CORE SERVICES TO SIMULATE:
 
-Tier 1 (MVP - Most Essential): 
+ Tier 1 (MVP - Most Essential): 
 ├─ 📦 S3 (Object Storage) 
-│   ├─ Create buckets 
-│   ├─ Upload/download files (virtual) 
-│   ├─ Access policies 
-│   ├─ Versioning 
-│   └─ Cost calculation 
+│   ├─ Create buckets          
+│   ├─ Upload/download files (virtual)          
+│   ├─ Access policies            
+│   ├─ Versioning        
+│   └─ Cost calculation     
 │  
 ├─ 💻 EC2 (Virtual Machines) 
 │   ├─ Launch instances (simulated) 
