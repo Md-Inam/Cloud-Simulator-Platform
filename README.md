@@ -21,8 +21,8 @@ CORE SERVICES TO SIMULATE:
 │   ├─ Backups & snapshots         
 │   ├─ Read replicas                    
 │   └─ Storage & compute costs                   
-│ 
- └─ ⚡ Lambda (Serverless)             
+│            
+└─ ⚡ Lambda (Serverless)             
     ├─ Function creation           
     ├─ Triggers & events                            
     ├─ Execution time simulation          
